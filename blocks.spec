@@ -16,6 +16,7 @@ BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	maintboot
 Requires:	python3-augeas >= 0.4.1-2
+Requires:	python3-distribute
 Requires:	python3-parted >= 3.10
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
