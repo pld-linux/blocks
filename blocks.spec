@@ -1,6 +1,7 @@
 %define	githash	a50575b
 %define	rel		1
-Summary:	Enable bcache or LVM on existing block devices
+Summary:	Conversion tools to enable bcache or LVM on existing block devices
+Summary(pl.UTF-8):	Narzędzia do konwersji pozwalające na włączenie bcache lub LVM na istniejących urządzeniach
 Name:		blocks
 Version:	0.1.4
 Release:	0.%{githash}.%{rel}
@@ -11,7 +12,7 @@ Source0:	https://github.com/g2p/blocks/archive/%{githash}/%{name}-%{version}-%{g
 Patch0:		egg-deps.patch
 URL:		https://github.com/g2p/blocks
 BuildRequires:	python3-distribute
-BuildRequires:	python3-modules
+BuildRequires:	python3-modules >= 3.3
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 Requires:	python3-augeas >= 0.4.1-2
@@ -26,6 +27,13 @@ Conversion tools for block devices.
 
 Convert between raw partitions, logical volumes, and bcache devices
 without moving data. blocks shuffles blocks and sprouts superblocks.
+
+%description -l pl.UTF-8
+Narzędzia do konwersji dla urządzeń blokowych.
+
+Pozwalają na konwersję między surowymi partycjami, wolumenami
+logicznymi oraz urządzeniami bcache bez potrzeby przenoszenia danych.
+blocks przestawia bloki i tworzy nowe superbloki.
 
 %prep
 %setup -qc
