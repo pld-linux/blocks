@@ -14,7 +14,7 @@ URL:		https://github.com/g2p/blocks
 BuildRequires:	python3-distribute
 BuildRequires:	python3-modules >= 3.3
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python3-augeas >= 0.4.1-2
 Requires:	python3-distribute
 Requires:	python3-parted >= 3.10
