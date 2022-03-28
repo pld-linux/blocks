@@ -1,5 +1,5 @@
 %define	githash	a50575b
-%define	rel		1
+%define	rel		2
 Summary:	Conversion tools to enable bcache or LVM on existing block devices
 Summary(pl.UTF-8):	Narzędzia do konwersji pozwalające na włączenie bcache lub LVM na istniejących urządzeniach
 Name:		blocks
@@ -11,7 +11,6 @@ Source0:	https://github.com/g2p/blocks/archive/%{githash}/%{name}-%{version}-%{g
 # Source0-md5:	06d0033af5a3d4f138698cccf0fa4a6b
 Patch0:		egg-deps.patch
 URL:		https://github.com/g2p/blocks
-BuildRequires:	python3-distribute
 BuildRequires:	python3-modules >= 1:3.3
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.710
