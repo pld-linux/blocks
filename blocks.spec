@@ -1,5 +1,5 @@
 %define	githash	a50575b
-%define	rel		2
+%define	rel	3
 Summary:	Conversion tools to enable bcache or LVM on existing block devices
 Summary(pl.UTF-8):	Narzędzia do konwersji pozwalające na włączenie bcache lub LVM na istniejących urządzeniach
 Name:		blocks
@@ -15,7 +15,6 @@ BuildRequires:	python3-modules >= 1:3.3
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python3-augeas >= 0.4.1-2
-Requires:	python3-distribute
 Requires:	python3-parted >= 3.10
 Suggests:	maintboot
 BuildArch:	noarch
