@@ -1,5 +1,5 @@
 %define	githash	a50575b
-%define	rel	4
+%define	rel	5
 Summary:	Conversion tools to enable bcache or LVM on existing block devices
 Summary(pl.UTF-8):	Narzędzia do konwersji pozwalające na włączenie bcache lub LVM na istniejących urządzeniach
 Name:		blocks
