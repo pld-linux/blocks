@@ -36,7 +36,7 @@ blocks przestawia bloki i tworzy nowe superbloki.
 %prep
 %setup -qc
 mv blocks-*/* .
-%patch0 -p1
+%patch -P 0 -p1
 
 %build
 %py3_build
